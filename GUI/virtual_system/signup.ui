@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signup</class>
+ <widget class="QWidget" name="signup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Create Account</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>20</number>
+   </property>
+   <property name="leftMargin">
+    <number>50</number>
+   </property>
+   <property name="topMargin">
+    <number>50</number>
+   </property>
+   <property name="rightMargin">
+    <number>50</number>
+   </property>
+   <property name="bottomMargin">
+    <number>50</number>
+   </property>
+
+   <!-- Header -->
+   <item>
+    <widget class="QLabel" name="headerLabel">
+     <property name="text">
+      <string>Create Your Account</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 10px;
+}</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+
+   <!-- Spacer -->
+   <item>
+    <spacer name="verticalSpacerTop">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+
+   <!-- Username Field -->
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLineEdit" name="usernametb">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>400</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+}
+QLineEdit:focus {
+    border: 1px solid #4CAF50;
+    outline: none;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Enter your username</string>
+     </property>
+    </widget>
+   </item>
+
+   <!-- Password Field -->
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLineEdit" name="password_tb">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>400</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+}
+QLineEdit:focus {
+    border: 1px solid #4CAF50;
+    outline: none;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Enter your password</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+   </item>
+
+   <!-- Error Message -->
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="hiddentext">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #e53935;
+    font-size: 13px;
+    padding: 5px 0;
+}</string>
+     </property>
+     <property name="text">
+      <string>Username already taken!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+
+   <!-- Signup Button -->
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QPushButton" name="singupButton">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>45</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>400</width>
+       <height>45</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #43A047;
+}
+QPushButton:pressed {
+    background-color: #388E3C;
+}</string>
+     </property>
+     <property name="text">
+      <string>Create Account</string>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+    </widget>
+   </item>
+
+   <!-- Back Button -->
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QPushButton" name="back">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>400</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #4CAF50;
+    background: transparent;
+    border: 1px solid #4CAF50;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px;
+}
+QPushButton:hover {
+    background-color: rgba(76, 175, 80, 0.1);
+}
+QPushButton:pressed {
+    background-color: rgba(76, 175, 80, 0.2);
+}</string>
+     </property>
+     <property name="text">
+      <string>Back to Login</string>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+    </widget>
+   </item>
+
+   <!-- Bottom Spacer -->
+   <item>
+    <spacer name="verticalSpacerBottom">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

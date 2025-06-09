@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QWidget" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Meeting Scheduler</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>10</number>
+   </property>
+   <property name="leftMargin">
+    <number>50</number>
+   </property>
+   <property name="topMargin">
+    <number>50</number>
+   </property>
+   <property name="rightMargin">
+    <number>50</number>
+   </property>
+   <property name="bottomMargin">
+    <number>50</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="headerLabel">
+     <property name="font">
+      <font>
+       <pointsize>24</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Meeting Scheduler Menu</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignHCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacerTop">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="create_meeting">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed { background-color: #3d8b40; }</string>
+     </property>
+     <property name="text">
+      <string>Create Meeting</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="register_meeting">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed { background-color: #3d8b40; }</string>
+     </property>
+     <property name="text">
+      <string>Register Meeting</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="cancel_meeting">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed { background-color: #3d8b40; }</string>
+     </property>
+     <property name="text">
+      <string>Cancel Meeting</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="postpone_meeting">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed { background-color: #3d8b40; }</string>
+     </property>
+     <property name="text">
+      <string>Postpone Meeting</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="show_events">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed { background-color: #3d8b40; }</string>
+     </property>
+     <property name="text">
+      <string>Show Events</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="search_for_event">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed { background-color: #3d8b40; }</string>
+     </property>
+     <property name="text">
+      <string>Search for Event</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="feedback">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed { background-color: #3d8b40; }</string>
+     </property>
+     <property name="text">
+      <string>Feedback</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #4CAF50;
+    background: transparent;
+    border: 1px solid #4CAF50;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px;
+}
+QPushButton:hover {
+    background-color: rgba(76, 175, 80, 0.1);
+}
+QPushButton:pressed {
+    background-color: rgba(76, 175, 80, 0.2);
+}</string>
+     </property>
+     <property name="text">
+      <string>Logout</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacerBottom">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
