@@ -1,0 +1,9 @@
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/virtual_system.dir
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/edit_cache.dir
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/rebuild_cache.dir
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/list_install_components.dir
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/install.dir
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/install/local.dir
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/install/strip.dir
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/virtual_system_autogen_timestamp_deps.dir
+/home/mhendy/qtProjects/virtual_system/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/virtual_system_autogen.dir
